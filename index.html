@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ME</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<div id="devbar" class="hidden"><a id="devtools" href="#">Open DevTools</a></div>
+
+<div id="editor"></div>
+
+<div id="console" class="hidden"></div>
+<input type=text id="query" class="hidden"></input>
+    
+<script src="ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setFontSize(16);
+    editor.setTheme("ace/theme/monokai");
+    editor.getSession().setMode("ace/mode/javascript");
+</script>
+<script src="app.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "main": "index.html",
+  "name": "ME",
+  "description": "ME : My Editor",
+  "version": "0.0.0",
+  "window": {
+    "title": "ME",
+    "toolbar": false,
+    "frame": false,
+    "width": 700,
+    "height": 900
+  }
+}
